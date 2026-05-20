@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #02142b, #032b5c);
+  color: rgb(246, 246, 246);
+  padding: 30px 50px;
+}
+
+/* MAIN CONTAINER */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LEFT SIDE */
+
+.left {
+  width: 60%;
+}
+
+.portfolio {
+  color: #f4b942;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.skill {
+  color: #f4b942;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* ABOUT */
+
+.about h3 {
+  color: #f4b942;
+  font-size: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f4b942;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.details {
+  width: 90%;
+  line-height: 35px;
+  font-size: 22px;
+}
+
+.imp {
+  color: #f4b942;
+  font-weight: bold;
+}
+
+/* IMAGE */
+
+.img img {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  border: 3px solid #05ff3f;
+  object-fit: cover;
+}
+.impp {
+  color: #f4b942;
+  border-bottom: 2px solid #f4b942;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+
+.skills ul {
+  list-style: none;
+
+}
+
+.skills li {
+  font-size: 28px;
+  margin: 2px;
+}
+.skills i {
+  color: #f4b942;
+  margin-right: 10px;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+.projects {
+  margin-top: 60px;
+}
+
+.projects h2 {
+  color: #f4b942;
+  border-bottom: 2px solid #f4b942;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+
+.projects img {
+  border: 2px solid #f4b942;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 5px;
+  width: 400px;
+  height: 200px;
+}
+
+.project {
+  font-size: 22px;
+  position: relative;
+  bottom: 70px;
+}
+.contact h2 {
+  color: #f4b942;
+  border-bottom: 2px solid #f4b942;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  font-size: 35px;
+}
+.gmail,
+.number,
+.linkedin {
+  margin: 15px 0;
+  font-size: 22px;
+}
+
+.contact i {
+  color: #f4b942;
+  margin-right: 12px;
+  font-size: 25px;
+}
+
